@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".BookDetailsActivity">
+
+    <TextView
+        android:id="@+id/BookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:text="Default"
+        android:textAlignment="center"
+        android:textColor="#F6F1F1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edBookDetails"
+        android:layout_width="270dp"
+        android:layout_height="371dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="#F6F5F5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="72dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnRead"
+                android:layout_width="206dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/readbook2" />
+
+            <ImageButton
+                android:id="@+id/btnFav"
+                android:layout_width="206dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/addfav" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="206dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/later" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="206dp"
+                android:layout_height="105dp"
+                app:srcCompat="@drawable/markread" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
