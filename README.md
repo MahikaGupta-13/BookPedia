@@ -1,4 +1,27 @@
 BookPedia | Android Studio, Java, SQLite
-BookPedia is an Android-based book reading application that allows users to explore and manage books across various genres such as Fiction, Non-Fiction, Biographies, Poems, Business, and Motivational. 
-The app features secure user authentication and enables users to mark books as favourites, save them for later, track completed reads, and submit feedback. 
-Built using Java with SQLite for local data storage and SharedPreferences for session management, the app offers an intuitive UI and a modular structure that supports offline access and future scalability, including planned enhancements like displaying book covers, authors, and ratings.
+BookPedia is a user-friendly Android application designed for discovering, reading, and managing books across diverse genres
+such as Fiction, Non-Fiction, Biographies, Poems, Business, and Motivational. It provides a personalized reading experience with features like favourites, read-later, and read tracking, enhancing user engagement and retention.
+
+🌟 Features
+Secure user registration and login
+Genre-wise book browsing
+Add to favourites, read later, and mark as read
+Submit user feedback and suggestions
+Offline access to books and reading history
+
+📂 Modules
+User Panel: Browse and manage book lists, interact with book features
+Session Management: Maintains user sessions using SharedPreferences
+Feedback Module: Collects user input for future improvements
+
+📄 Documentation
+View Full Project Documentation (PDF)
+
+🛠 Technologies Used
+Android Studio
+Java
+SQLite
+SharedPreferences
+
+## 📄 Documentation
+[View Full Project Documentation (PDF)](BookPedia_documentation.pdf)
